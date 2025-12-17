@@ -2,7 +2,7 @@
 
 ##  Anti-Detection & Stealth Techniques
 
-Implemented stealth mechanisms include:
+Implemented stealth mechanisms include
 
 1. Randomized timing & think delays  
 2. Human-like mouse movement with overshoot & micro-corrections  
