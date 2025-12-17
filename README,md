@@ -1,0 +1,77 @@
+---
+
+## 🕵️ Anti-Detection & Stealth Techniques
+
+Implemented stealth mechanisms include:
+
+1. Randomized timing & think delays  
+2. Human-like mouse movement with overshoot & correction  
+3. Human-like typing with variable speed & corrections  
+4. Natural scrolling behavior with pauses  
+5. Activity scheduling (business hours only)  
+6. Rate limiting & daily quotas  
+7. Browser fingerprint masking  
+   - disabled automation flags  
+   - randomized viewport  
+   - `navigator.webdriver` override  
+8. Duplicate action prevention via persisted state  
+
+---
+
+## 🔐 Authentication System (PoC)
+
+- Credentials loaded via environment variables
+- Graceful handling of:
+  - login failures
+  - security checkpoints (2FA / captcha)
+- No security mechanisms are bypassed
+
+---
+
+## 🔍 Search & Targeting (Mock)
+
+- Query-based targeting (job title, company, keywords)
+- Pagination handling
+- Duplicate profile detection
+- Safe mock implementation (no scraping)
+
+---
+
+## 🤝 Connection Requests (Mock)
+
+- Profile visit simulation
+- Daily request limits
+- Human-like delays
+- Persistent tracking to avoid duplicates
+
+---
+
+## 💬 Messaging System (Mock)
+
+- Template-based messages
+- Dynamic variable substitution
+- Follow-up messaging
+- Message history tracking
+
+---
+
+## 💾 State Persistence
+
+- JSON-based storage
+- Tracks sent connections & messages
+- Enables safe resume after restarts
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1. Install Go
+
+https://go.dev/dl/
+
+### 2. Clone Repository
+
+```bash
+git clone <your-repo-url>
+cd linkedin-automation
+```

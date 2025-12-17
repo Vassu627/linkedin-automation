@@ -1,0 +1,16 @@
+# binaries
+*.exe
+*.out
+
+# environment variables
+.env
+
+# state files
+state.json
+
+# editor files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
